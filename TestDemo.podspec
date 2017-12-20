@@ -32,7 +32,7 @@ s.author             = { "diankuanghuolong" => "3243388139@qq.com"}
 # 设置仓库源,表示在哪可以找到组件工程
 s.source       = { :git => "https://github.com/diankuanghuolong/TestDemo.git", :tag => "#{s.version}" }
 # 设置 源文件路径 => 不是整个工程的文件，而是自己封装的代码，以后别的工程引入，就会引入这里的代码。
-s.source_files  = "PanelFramework/*.{h,m}"
+s.source_files  = "PanelFramework/*"
 
 # s.dependency = '' 组件工程依赖哪些第三方框架
 # s.frameworks = 'UIKit' 组件工程依赖哪些原生框架
